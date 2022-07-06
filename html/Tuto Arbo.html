@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Tuto Arbo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="" />
+    <style>
+      .images {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+      }
+      img {
+        border: 2px dotted black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Créer un dossier ou un fichier depuis un ordinateur</h1>
+    <p>
+      Avant toute chose: pour le bien de ce tuto, les images mentionneront le
+      chemin de l'ordinateur du centre. Le chemin changera si vous utilisez
+      votre propre ordinateur, mais les manipulations restent les mêmes.
+    </p>
+    <h2>A partir de Visual Studio Code</h2>
+    <p>
+      On peut créer un dossier ou un fichier à partir de VSC directement:<br />
+    </p>
+    <div class="images">
+      <div class="folder">
+        <img src="../images/newfolder.png" width="240px" height="200px" />
+      </div>
+      <div class="file">
+        <img src="../images/newfile.png" width="240px" height="200px" />
+      </div>
+    </div>
+    <br />
+    <h2>A partir de la cmd (boite de commandes)</h2>
+    <h3>Créer un dossier:</h3>
+    <p>On peut aussi passer par des commandes via la cmd:<br /></p>
+    <ul>
+      <li>
+        Commencez par aller dans le dossier de base, ou le bureau via
+        l'explorateur de fichiers. Cliquez sur la barre au dessus du dossier, à
+        gauche de la recherche et tapez cmd : <img src="../images/cmd.jpg" />
+      </li>
+      <li>
+        Tapez ensuite mkdir dossier_projet . Cela va créer un dossier
+        "dossier_projet" dans le dossier actuel:
+        <img src="../images/mkdir.png" />
+      </li>
+      <li>
+        Ensuite on veut aller dans ce fameux dossier, et pour cela tapez cd
+        dossier_projet: <img src="../images/cddos.png" />
+      </li>
+    </ul>
+    <h3>Créer un fichier:</h3>
+    <p>
+      Une fois positionné dans le dossier que l'on vient de créer, on va pouvoir
+      créer des fichiers directement à l'intérieur à l'aide de la commande type
+      nul > index.html:<br />
+    </p>
+    <img src="../images/index.png" />
+    <h3>
+      Exerçons-nous: créons un dossier styles dans le dossier_projet contenant
+      un fichier style.css
+    </h3>
+    <img src="../images/style.png" />
+    <p>
+      On peut remonter d'un dossier à l'aide de la commande
+      <strong>cd ..</strong> ; et pour entrer dans un dossier, on entre
+      <strong>cd nom_dossier</strong> dans la boite de commandes.
+    </p>
+  </body>
+</html>
